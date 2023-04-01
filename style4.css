@@ -130,7 +130,7 @@ select {
 }
 
 .service {
-    background: url(../portfolio2/images/service.png);
+    background: url(images/service.png);
     margin: 0 auto;
     max-width: 1950px;
     height: 350px;

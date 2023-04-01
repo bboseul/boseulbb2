@@ -112,7 +112,7 @@ select {
 .wrap2 {
     width: 100%;
     margin: auto;
-    background: url(../portfolio2/images/mainbg1.png);
+    background: url(images/mainbg1.png);
     /* border: 1px solid red; */
 }
 
@@ -132,7 +132,7 @@ select {
 #main_bg {
     width: 2000px;
     height: 1000px;
-    background: url(../portfolio2/images/Artboard1.png) no-repeat;
+    background: url(images/Artboard1.png) no-repeat;
     background-position: 720px 0;
 }
 
@@ -422,7 +422,7 @@ transition: 0.5s;
     margin-top: 20px;
     max-width: 1500px;
     height: 120px;
-    background: url(../portfolio2/images/rbfrbf.png) no-repeat;
+    background: url(images/rbfrbf.png) no-repeat;
 
     /* border: 1px solid red; */
 }
@@ -445,7 +445,7 @@ transition: 0.5s;
 .wrap4 {
     width: 100%;
     margin-top: 280px;
-    background: url(../portfolio2/images/Artboard\ 1.png)
+    background: url(images/Artboard\ 1.png)
 
 
     /* border: 1px solid black; */
@@ -500,7 +500,7 @@ transition: 0.5s;
     height: 578px;
     float: right;
     margin-right: 200px;
-    background: url(../portfolio2/images/insta.png);
+    background: url(images/insta.png);
 }
 
 
