@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+    overflow: hidden;
+    background: black;
+}
+
+.navi {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 40px;
+    /* border: 1px solid wheat; */
+}
+
+.jejulogo {
+    float: left;
+}
+
+.jejunav {
+    float: left;
+    margin-left: 300px;
+    width: 1200px;
+    /* border: 1px solid wheat; */
+    height: 70px;
+}
+
+.jejunav > ul {
+    display: inline-block;
+    /* border: 1px solid wheat; */
+    width: 1000px;
+}
+
+.jejunav > ul > li {
+    float: left;
+    /* border: 1px solid wheat; */
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+.jejunav > ul > li > a {
+color: #ff5000;
+display: block;
+font-size: 18px;
+height: 16px;
+text-decoration: none;
+text-align: center;
+}
+
+
+.jejunav ul li a span {
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+  
+.jejunav ul li a:hover span:before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    font-weight: 600;
+    /* overflow: hidden; */
+    
+}
+  
+.jejunav ul li a:hover span {
+    transform: translateY(-100%);
+}
+
+
+
+#rightmenu {
+    /* clear: both; */
+    float: right;
+    /* border: 1px solid wheat; */
+    width: 200px;
+    height: 50px;
+    line-height: 20px;
+    padding: 5px;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    background: black;
+    color: white;
+}
+
+.login {
+    float: right;
+    margin-top: 7px;
+}
+
+.login a {
+    text-decoration: none;
+    text-align: center;
+    color: #ff915d;
+    font-size: 18px;
+}
+
+
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+    border: 9px solid #fff;
+    background: #fff;
+}
+
+.bx-wrapper img {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.bx-prev, .bx-next {display: none}
+
+.wrapser {
+    width: 100%;
+    overflow: hidden;
+    background: #FFE7D7;
+}
+
+.service {
+    background: url(../portfolio2/images/service.png);
+    margin: 0 auto;
+    max-width: 1950px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.sub-wrapper {
+    margin: 0 auto;
+    max-width: 1900px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Dovemayo_gothic';
+    font-weight: 500;
+}
+
+.submenu {
+    width: 1500px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.submenu > li {
+    width: 650px;
+    height: 200px;
+    background: rgba(231, 231, 231, 0.581);
+    display: inline-block;
+    margin: 10px;
+}
+
+.seat, .suha, .meal, .baggab {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding-left: 60px;
+    /* border: 1px solid red; */
+}
+
+.right-seat, .right-suha, .right-meal, .right-baggab {
+    float: right;
+    /* border: 1px solid red; */
+    width: 350px;
+    height: 200px;
+    margin: 30px 30px 0 0;
+    padding-right: 10px;
+}
+
+.right-seat p {
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-seat .seattxt {
+    padding-bottom: 14px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.right-seat a {
+    width: 200px;
+    padding: 12px;
+    line-height: 40px;
+    margin: 5px;
+    background: #ff915d;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-suha p {
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-suha .suhatxt {
+    padding-bottom: 14px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.right-suha a {
+    width: 200px;
+    padding: 12px;
+    line-height: 40px;
+    margin: 5px;
+    background: #ff915d;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-meal p {
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-meal .mealtxt {
+    padding-bottom: 14px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.right-meal a {
+    width: 200px;
+    padding: 12px;
+    line-height: 40px;
+    margin: 5px;
+    background: #ff915d;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-baggab p {
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-baggab .baggabtxt {
+    padding-bottom: 14px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.right-baggab a {
+    width: 200px;
+    padding: 12px;
+    line-height: 40px;
+    margin: 5px;
+    background: #ff915d;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+.right-seat a:hover {
+    background: white;
+    color: #ff915d;
+}
+
+.right-suha a:hover {
+    background: white;
+    color: #ff915d;
+}
+
+.right-meal a:hover {
+    background: white;
+    color: #ff915d;
+}
+
+.right-baggab a:hover {
+    background: white;
+    color: #ff915d;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.line {
+    width: 1800px;
+    margin: 190px auto;
+    border-top: 1px solid #cecece;
+}
+
+
+.eksrhf {
+    max-width: 1900px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.eksrhf1 {
+    width: 450px;
+    overflow: hidden;
+    background: rgba(231, 231, 231, 0.581);
+    display: inline-block;
+    margin-right: 15px;
+    padding: 35px 0 30px 0;
+    position: relative;
+}
+
+
+
+.eksrhf1 ul {
+    width: 450px;
+    height: 100px;
+}
+
+.eksrhf1 ul li {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    /* background: #ff5000; */
+}
+
+.eksrhftxt {
+    padding-top: 150px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 12px;
+    font-family: 'IBMPlexSansKR-Regular';
+    /* border: 1px solid red; */
+}
+
+.eksrhftxt2 {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'IBMPlexSansKR-Regular';
+    margin-bottom: 12px;
+    /* border: 1px solid red; */
+}
+
+.eksrhftxt3 {
+    font-size: 19px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+
+
+.golf, .wkwjsrj {
+    width: 450px;
+    height: 150px;
+    margin: 72px 30px 79px 0;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid #ffa67d;
+    margin-top: 250px;
+    background: white;
+}
+
+.footer1 {
+    max-width: 1900px;
+    overflow: auto;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.arrowbtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 90%;
+    right: 50px;
+}
+
+.rhdwl1 {height: 100px;}
+
+.rhdwl1 > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+    padding-bottom: 80px;
+    margin-left: 270px;
+}
+  
+.rhdwl1 > ul > li a {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+
+.rhdwl1 > ul > li a:hover {
+    font-weight: 600;
+    color: #ff915d;
+}
+  
+.rhdwl1 > ul > li {
+    float: left;
+    padding: 30px;
+    font-size: 20px;
+    /* border: 1px solid black; */
+}
+  
+.rhdwl1 > ul > li::after {
+    content: "ㅣ";
+    float: right;
+    color: black;
+    margin-right: -35px;
+  }
+  
+.rhdwl1 > ul > li:last-child::after {
+    content: "";
+}
+
+.rhdwl2txt {
+    font-weight: 600;
+}
+
+.rhdwl2 {
+    max-width: 1900px;
+    overflow: hidden;
+    display: flex;
+    margin-top: 60px;
+    justify-content:space-around;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.center1  {
+    color: rgb(83, 83, 83);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.center2 {
+    width: 200px;
+    height: 50px;
+    margin-left: 85px;
+    line-height: 50px;
+    background: #ffb592;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.center2 > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.midrhdwl2 > a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.right1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.right2 { margin-top: 10px; text-align: center;}
+.right2 > a {
+    color: #555;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.rhdwl3 {
+    max-width: 1900px;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 60px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.leftrhdwl3 {
+    float: left;
+    text-align: left;
+    margin-right: 580px;
+}
+
+.leftrhdwl3 > p {
+    font-size: 20px;
+    color: #555;
+    line-height: 39px;
+}
+
+.rightrhdwl3 {
+    float: right;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+
+.rightrhdwl3 > a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
